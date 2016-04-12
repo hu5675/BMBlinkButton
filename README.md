@@ -9,6 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 该示例是测试创建开源库的过程
+http://www.cnblogs.com/bboymars/p/5382012.html
 
 ## Requirements
 
