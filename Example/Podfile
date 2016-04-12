@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'BMBlinkButton_Example', :exclusive => true do
+  pod 'BMBlinkButton', :path => '../'
+end
+
+target 'BMBlinkButton_Tests', :exclusive => true do
+  pod 'BMBlinkButton', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
