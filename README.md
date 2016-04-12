@@ -8,6 +8,7 @@
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+该示例是测试创建开源库的过程
 
 ## Requirements
 
@@ -17,7 +18,7 @@ BMBlinkButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "BMBlinkButton"
+pod "BMBlinkButton", '0.1.1'
 ```
 
 ## Author
