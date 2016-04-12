@@ -7,6 +7,7 @@
 //
 
 #import "BMViewController.h"
+#import "YONetwork.h"
 
 @interface BMViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [[[YONetwork alloc] init] test];
 }
 
 - (void)didReceiveMemoryWarning
